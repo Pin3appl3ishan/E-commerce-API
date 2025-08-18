@@ -7,3 +7,5 @@ spring:
     password: Password
   jpa:
     show-sql: true
+  jwt:
+    secret: xJaJpANIRJyArOBnwSyVe57AO5CYw+kKnxKMKgDZeMdFyh+YrJwnCUegD2NgqtxY
