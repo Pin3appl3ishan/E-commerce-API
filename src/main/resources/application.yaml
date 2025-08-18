@@ -9,3 +9,5 @@ spring:
     show-sql: true
   jwt:
     secret: xJaJpANIRJyArOBnwSyVe57AO5CYw+kKnxKMKgDZeMdFyh+YrJwnCUegD2NgqtxY
+    accessTokenExpiration: 300
+    refreshTokenExpiration: 604800
