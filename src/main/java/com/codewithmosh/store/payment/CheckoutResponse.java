@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dtos;
+package com.codewithmosh.store.payment;
 
 import lombok.Data;
 
