@@ -1,12 +1,12 @@
 package com.codewithmosh.store.controllers;
 
-import com.codewithmosh.store.dtos.ChangePasswordRequest;
-import com.codewithmosh.store.dtos.RegisterUserRequest;
-import com.codewithmosh.store.dtos.UpdateUserRequest;
-import com.codewithmosh.store.dtos.UserDto;
-import com.codewithmosh.store.entities.Role;
-import com.codewithmosh.store.mappers.UserMapper;
-import com.codewithmosh.store.repositories.UserRepository;
+import com.codewithmosh.store.users.ChangePasswordRequest;
+import com.codewithmosh.store.users.RegisterUserRequest;
+import com.codewithmosh.store.users.UpdateUserRequest;
+import com.codewithmosh.store.users.UserDto;
+import com.codewithmosh.store.users.Role;
+import com.codewithmosh.store.users.UserMapper;
+import com.codewithmosh.store.users.UserRepository;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Sort;
